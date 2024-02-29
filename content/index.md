@@ -1,5 +1,5 @@
 ---
-title: 我的笔记
+title: 公共笔记库
 ---
 # [[Python]]
 
