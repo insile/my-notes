@@ -8,9 +8,12 @@ def add_numbers(a, b):
     这个函数接受两个参数并返回它们的和。
     """
     return a + b
+    
+# 调用函数获得结果赋值给 result
+result = add_numbers(3, 5)  
 
-result = add_numbers(3, 5)  # 调用函数获得结果赋值给 result
-print("结果:", result)  # 打印字符串 "结果:" 和变量 result，用空格连接
+# 打印字符串 "结果:" 和变量 result，用空格连接
+print("结果:", result)  
 ```
 ##### Python 解释器
 - Python 解释器是执行 Python 代码的程序，它读取并执行 Python 源代码或已编译的字节码。Python 解释器有多种实现，其中最常用的是 CPython，它是官方的 Python 解释器，使用 C 语言编写

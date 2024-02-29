@@ -1,6 +1,7 @@
 ##### Anaconda
 - Anaconda 是 Python 的发行版，旨在简化包管理和部署
 - Anaconda 包是从远程 channel 下载的，这些 channel 是包含 conda 包的目录的 URL
+- [[常用 Conda 命令]]
 - [[conda 与 pip 对比]]
 ##### 步骤
 1. 安装 Anaconda
@@ -10,4 +11,3 @@
 		- 从 Environments 点击创建管理环境与包
 	- Anaconda Prompt 命令行界面
 		- 输入 Conda 命令创建管理环境与包
-		- [[常用 Conda 命令]]

@@ -5,14 +5,19 @@
 ```shell
 # 进入安装目录
 cd <安装目录>
+
 # 创建环境
 python -m venv <名字>
+
 # 进入bin目录
 cd bin
+
 # 激活环境
 activate.bat
+
 # 在该环境安装包
 pip install <包>
+
 # 退出环境
 deactivate
 ```

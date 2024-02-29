@@ -1,0 +1,12 @@
+{
+	"nodes":[
+		{"id":"f05838c90c346379","type":"text","text":"# 反余弦 arccos\n- $$\\arccos x$$\n- $\\displaystyle x\\in[-1,1]$\n- $\\displaystyle y\\in[0,\\pi]$\n\n![[20.png]]","x":-500,"y":-650,"width":460,"height":650},
+		{"id":"a2ff0e68da4b0364","type":"text","text":"# 反正切 arctan\n- $$\\arctan x$$\n- $\\displaystyle x\\in R$\n- $\\displaystyle y\\in[-\\frac{\\pi}{2},\\frac{\\pi}{2}]$\n\n![[18.png]]","x":-40,"y":-650,"width":460,"height":650},
+		{"id":"8706c8b956e1445a","type":"text","text":"# 反正弦 arcsin\n- $$\\arcsin x$$\n- $\\displaystyle x\\in[-1,1]$\n- $\\displaystyle y\\in[-\\frac{\\pi}{2},\\frac{\\pi}{2}]$\n\n![[19.png]]","x":-960,"y":-650,"width":460,"height":650},
+		{"id":"50e02bc139191836","type":"text","text":"# 反余割 arccsc\n- $${\\rm arccsc}\\ x$$\n- $\\displaystyle x\\in(-\\infty,-1]\\cup[1,\\infty)$\n- $\\displaystyle y\\in[-\\frac{\\pi}{2},0)\\cup(0,\\frac{\\pi}{2}]$\n\n![[21.png]]\n","x":-960,"y":0,"width":460,"height":650},
+		{"id":"1f21b1d346fa5dd7","type":"text","text":"# 反正割 arcsec\n- $${\\rm arcsec}\\ x$$\n- $\\displaystyle x\\in(-\\infty,-1]\\cup[1,\\infty)$\n- $\\displaystyle y\\in[0,\\frac{\\pi}{2})\\cup(\\frac{\\pi}{2},\\pi]$\n\n![[22.png]]","x":-500,"y":0,"width":460,"height":650},
+		{"id":"16d24581bfeab791","type":"text","text":"# 反余切 arccot\n- $$\\displaystyle{\\rm arccot}\\ x$$\n- $\\displaystyle x\\in R$\n- $\\displaystyle y\\in[0,\\pi]$\n\n![[23.png]]","x":-40,"y":0,"width":460,"height":650},
+		{"id":"1c28a6548f50f0f4","type":"file","file":"笔记/数学/数学文档/反三角函数.md","x":-1500,"y":-650,"width":540,"height":1300}
+	],
+	"edges":[]
+}
