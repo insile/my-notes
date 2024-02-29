@@ -1,8 +1,0 @@
-{
-	"nodes":[
-		{"id":"bc0f4bf42609ffbb","type":"text","text":"# 单调递增指数函数\n- $$y=a^x,\\ a>1$$\n- 定义域: $\\boldsymbol{R}$\n- 值域: $(0,+\\infty)$\n- 单调性: 单调递增\n\n![[7.png]]","x":-860,"y":-410,"width":640,"height":820},
-		{"id":"6fa5edb1c6688c5e","type":"text","text":"# 单调递减指数函数\n- $$y=a^x,\\ 0<a<1$$\n- 定义域: $\\boldsymbol{R}$\n- 值域: $(0,+\\infty)$\n- 单调性: 单调递减\n\n![[8.png]]","x":-220,"y":-410,"width":640,"height":820},
-		{"id":"18631d767d1849f4","type":"file","file":"笔记/数学/数学文档/指数函数.md","x":-1300,"y":-410,"width":440,"height":820}
-	],
-	"edges":[]
-}

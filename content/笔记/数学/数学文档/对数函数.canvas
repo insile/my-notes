@@ -1,8 +1,0 @@
-{
-	"nodes":[
-		{"id":"a4456acbb74d2e39","type":"text","text":"# 单调递增对数函数\n- $$y=\\log_a x,\\ a>1$$\n- 定义域: $(0,+\\infty)$\n- 值域: $\\boldsymbol{R}$\n- 单调性: 单调递增\n\n![[9.png]]","x":-860,"y":-400,"width":640,"height":800},
-		{"id":"3ffd2259628e4a26","type":"text","text":"# 单调递减对数函数\n- $$y=\\log_a x,\\ 0<a<1$$\n- 定义域: $(0,+\\infty)$\n- 值域: $\\boldsymbol{R}$\n- 单调性: 单调递减\n\n![[10.png]]","x":-220,"y":-400,"width":640,"height":800},
-		{"id":"4b3fd986ee953553","type":"file","file":"笔记/数学/数学文档/对数函数.md","x":-1300,"y":-400,"width":440,"height":800}
-	],
-	"edges":[]
-}
