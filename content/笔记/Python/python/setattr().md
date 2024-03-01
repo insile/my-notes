@@ -1,3 +1,4 @@
+##### setattr()
 - `setattr( object, name, value )`
 	- 设置属性值，允许动态地设置对象的属性，无论是已存在的属性还是新创建的属性
 	- `object` 要设置属性的对象

@@ -1,3 +1,4 @@
+##### format()
 - `format(value, format_spec='')`
 	- 将 `value` 转换为“格式化后”的形式，格式由 `format_spec` 进行控制。`format_spec` 的解释方式取决于 `value` 参数的类型
 ```python

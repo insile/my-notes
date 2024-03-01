@@ -1,3 +1,4 @@
+##### repr()
 - `repr( object )`
 	- 输出一个对象的“官方”字符串表示
 ```python

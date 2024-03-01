@@ -1,3 +1,4 @@
+##### range()
 - `range( stop )`
 - `range( start, stop [, step] )`
 	- 返回循环计数序列（[[迭代器类型|可迭代对象]]）

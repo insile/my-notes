@@ -1,3 +1,4 @@
+##### sorted()
 - `sorted( iterable, *, key=None, reverse=False )`
 	- 对[[迭代器类型|可迭代对象]]排序，返回[[列表]]
 	- `iterable` 要排序的可迭代对象

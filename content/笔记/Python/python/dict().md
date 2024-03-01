@@ -1,3 +1,4 @@
+##### dict()
 - `dict(**kwargs)`
 - `dict(mapping, **kwargs)`
 - `dict(iterable, **kwargs)`

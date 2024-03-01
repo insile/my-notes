@@ -1,3 +1,4 @@
+##### min()
 - `min( iterable, *args, key=None, default=None )`
 	- 给定参数的最小值
 	- `iterable` 要查找最小值的可迭代对象

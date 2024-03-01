@@ -1,3 +1,4 @@
+##### eval()
 - `eval( expression, globals=None, locals=None )`
 	- 用于执行一个字符串表达式`expression`，并返回表达式的结果
 	- `expression` 要执行的字符串表达式或者代码对象

@@ -1,3 +1,4 @@
+##### round()
 - `round( number , ndigits )`
 	- 返回数 `number` 的四舍五入值
 	- `ndigits` 可选参数，用于指定舍入的小数位数，或者使用负数来舍入到最近的整数位数。默认为 0

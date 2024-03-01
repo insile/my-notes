@@ -1,3 +1,4 @@
+##### open()
 - `open(file, mode='r', buffering=- 1, encoding=None, errors=None, newline=None, closefd=True, opener=None)`
 	- 打开文件，创建一个[[文件类型|文件对象]]
 	- 文本返回[[class io.TextIOWrapper]]，二进制读返回[[class io.BufferedReader]]，二进制写返回[[class io.BufferedWriter]]

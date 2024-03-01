@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"type":"group","id":"ad75110aeda138fe","x":-740,"y":40,"width":1480,"height":940,"label":"陈述句"},
+		{"type":"text","text":"# 主语/[[主语从句]]\n- [[名词作主语]]\n- [[代词作主语]]\n- [[非谓语动词作主语]]\n","id":"ac7351e39166e050","x":-705,"y":230,"width":285,"height":255},
+		{"type":"text","text":"# 定语/[[定语从句]]\n- [[名词作定语]]\n- [[形容词作定语]]\n- [[代词作定语]]\n- [[介词短语作定语]]\n- [[非谓语动词作定语]]","id":"870c120271b0e439","x":-705,"y":640,"width":285,"height":300},
+		{"type":"text","text":"# 同位语/[[同位语从句]]\n- [[名词作同位语]]","id":"b68e3d6a7478cb28","x":-80,"y":640,"width":320,"height":120},
+		{"type":"text","text":"# 状语/[[状语从句]]\n- [[副词作状语]]\n- [[介词短语作状语]]","id":"298434700ba30442","x":-380,"y":640,"width":265,"height":160},
+		{"type":"text","text":"# 谓语\n- [[实义动词]]\n- [[系动词]]\n- [[助动词]]\n- [[情态动词]]","id":"4e815d8db5803bb3","x":-380,"y":230,"width":250,"height":255},
+		{"type":"text","text":"# 表语/[[表语从句]]\n- [[名词作表语]]\n- [[形容词作表语]]\n- [[代词作表语]]\n- [[介词短语作表语]]\n- [[非谓语动词作表语]]\n","id":"fb34a16b3ab815fe","x":-20,"y":67,"width":295,"height":290},
+		{"type":"text","text":"# 宾语/[[宾语从句]]\n- [[名词作宾语]]\n- [[代词作宾语]]\n- [[非谓语动词作宾语]]","id":"b578f323ceedc09a","x":-20,"y":400,"width":295,"height":210},
+		{"type":"text","text":"# 补语\n- [[名词作补语]]\n- [[形容词作补语]]\n- [[介词短语作补语]]\n- [[非谓语动词作补语]]","id":"aeb25f2920af4a59","x":380,"y":400,"width":300,"height":260}
+	],
+	"edges":[
+		{"id":"ccdba08a2fad6299","fromNode":"ac7351e39166e050","fromSide":"right","toNode":"4e815d8db5803bb3","toSide":"left"},
+		{"id":"a93c4a79f4b70141","fromNode":"4e815d8db5803bb3","fromSide":"right","toNode":"b578f323ceedc09a","toSide":"left"},
+		{"id":"5d18164f11411751","fromNode":"b578f323ceedc09a","fromSide":"right","toNode":"aeb25f2920af4a59","toSide":"left"},
+		{"id":"bbb7d1021c2b4366","fromNode":"4e815d8db5803bb3","fromSide":"right","toNode":"fb34a16b3ab815fe","toSide":"left"}
+	]
+}

@@ -1,3 +1,4 @@
+##### exec()
 - `exec(object, globals=None, locals=None, /, *, closure=None)`
 	- 动态执行 Python 代码，返回值为 `None`
 	- `object` 要执行的代码字符串，可以是一个代码块、一个单独的语句或者一系列语句。

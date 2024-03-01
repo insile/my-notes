@@ -1,3 +1,4 @@
+##### max()
 - `max(iterable, *args, key=None, default=None)`
 	- 返回给定参数的最大值
 	- `iterable` 要查找最大值的可迭代对象

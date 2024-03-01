@@ -1,3 +1,4 @@
+##### sum()
 - `sum( iterable , start=0 )`
 	- 对[[迭代器类型|可迭代对象]]求和, 初始值为`start`
 ```python

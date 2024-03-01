@@ -1,3 +1,4 @@
+##### property()
 - `@property`
 	- [[装饰器]]，把类的方法伪装成属性调用，Foo.func()的调用方法，变成Foo.func
 	- 同时可以定义与之关联的 setter 方法（用于设置属性值）和 deleter 方法（用于删除属性）

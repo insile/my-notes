@@ -1,3 +1,4 @@
+##### pass
 - pass 是 Python 中的一个空语句（空操作）。它用于表示一个代码块中暂时不做任何操作，或者在语法上需要一个语句，但实际上不需要执行任何操作。
 ```python
 def placeholder_function():

@@ -1,3 +1,4 @@
+##### frozenset()
 - `frozenset( iterable )`
 	- 从[[迭代器类型|可迭代对象]]返回一个冻结的集合，冻结后集合不能再添加或删除任何元素
 ```python

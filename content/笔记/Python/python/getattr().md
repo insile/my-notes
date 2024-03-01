@@ -1,3 +1,4 @@
+##### getattr()
 - `getattr( object , name , default )`
 	- 返回一个对象属性值，函数允许你动态地获取对象的属性，无论是已存在的属性还是不存在的属性
 	- `object` 要获取属性的对象

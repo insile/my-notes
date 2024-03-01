@@ -1,3 +1,4 @@
+##### delattr()
 - `delattr( object , name )`
 	- 删除属性，允许在运行时动态地删除对象的属性
 	- `object` 要删除属性的对象

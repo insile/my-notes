@@ -1,3 +1,4 @@
+##### any()
 - `any( iterable )`
 	- 判断[[迭代器类型|可迭代对象]] 是否有任何一个为 True，存在返回 True，否则返回 True
 ```python

@@ -1,3 +1,4 @@
+##### slice()
 - `slice( stop )`
 - `slice( start , stop , step )`
 	- 创建一个切片对象

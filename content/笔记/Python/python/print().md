@@ -1,3 +1,4 @@
+##### print()
 - `print( *objects, sep=' ', end='\n', file=sys.stdout, flush=False )`
 	- 以字符串形式向控制台输出结果
 	- `objects` 一个或多个要打印的对象。可以是字符串、数字、变量等

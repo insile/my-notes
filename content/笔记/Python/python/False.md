@@ -1,3 +1,4 @@
+##### False
 - [[数字类型|布尔类型值]]，假
 ```python
 type(False)  # False

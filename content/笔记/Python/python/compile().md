@@ -1,3 +1,4 @@
+##### compile()
 - `compile(source, filename, mode, flags=0, dont_inherit=False, optimize=- 1)`
 	- `source` 编译为代码对象并返回
 	- `source` 需要编译的源代码，可以是字符串、字节对象或AST（Abstract Syntax Tree）对象

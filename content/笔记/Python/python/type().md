@@ -1,3 +1,4 @@
+##### type()
 - `class type(object)`
 - `class type(name, bases, dict, **kwds)`
 	- 传递一个对象 `object` 作为参数时，函数返回该对象的类型

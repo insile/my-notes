@@ -1,3 +1,4 @@
+##### divmod()
 - `divmod( a , b )`
 	- 返回一个包含商和余数的元组 ( a // b , a % b )
 ```python

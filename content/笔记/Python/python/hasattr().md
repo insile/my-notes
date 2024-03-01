@@ -1,3 +1,4 @@
+##### hasattr()
 - `hasattr( object , name )`
 	- 查询是否存在属性
 	- `object` 要检查属性的对象

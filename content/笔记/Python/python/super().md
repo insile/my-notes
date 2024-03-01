@@ -1,3 +1,4 @@
+##### super()
 - `super( subclass , object )`
 	- 用于调用父类的一个方法，指的是 [[内置特殊属性|__mro__]] 中的下一个父类。
 	- `subclass`：要调用父类方法的子类

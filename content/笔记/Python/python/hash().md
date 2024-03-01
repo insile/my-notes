@@ -1,3 +1,4 @@
+##### hash()
 - `hash( object )`
 	- 返回对象哈希值
 ```python

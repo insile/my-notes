@@ -1,0 +1,31 @@
+- 主体段落（Body Paragraphs）
+	- **引出主题**：
+		- "First and foremost, let's consider..."
+		- "To begin with, it's crucial to examine..."
+		- "One key aspect to consider is..."
+		- "A significant factor in [主题] is..."
+		- "An important consideration is..."
+	- **展开论点**：
+		- "Furthermore, it's worth noting that..."
+		- "Moreover, research has shown that..."
+		- "In addition to this, statistics reveal that..."
+	- **举例和支持**：
+		- "For instance, a study conducted by [作者名] found that..."
+		- "An example that illustrates this is..."
+		- "This is evident when we look at the case of..."
+		- "According to [来源],..."
+		- "Statistics show that..."
+		- "Research conducted by [机构] indicates that..."
+		- "A study published in [杂志] reveals that..."
+	- **对比和转折**：
+		- "On the contrary, there is an opposing viewpoint..."
+		- "However, it's important to consider the drawbacks..."
+		- "Although some argue for [观点A], others claim that [观点B]..."
+	- **过渡（Transitions）**：
+		- "Moreover,..."
+		- "Furthermore,..."
+		- "On the other hand,..."
+		- "In contrast,..."
+		- "Similarly,..."
+		- "In addition,..."
+		- "Consequently,..."

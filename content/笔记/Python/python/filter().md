@@ -1,3 +1,4 @@
+##### filter()
 - `filter( function, iterable )`
 	- 过滤掉不符合条件的元素，返回由符合条件元素组成的[[迭代器类型|迭代器]]
 ```python
