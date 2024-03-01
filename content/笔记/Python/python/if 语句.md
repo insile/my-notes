@@ -4,7 +4,7 @@
 - [[elif]] : 备选判断条件
 - [[else]] : 不满足条件执行语句
 ```python
-# if语句形式1
+# if 语句形式
 '''
 if 判断条件1:
 	执行语句1
@@ -24,12 +24,4 @@ elif num < 0:
 else:
     print("Number is zero.")
 # 输出: Number is positive.
-
-
-# if语句形式2
-'''
-表达式1 if 判断条件 else 表达式2
-'''
-
-print(1) if 1>0 else print(0)
 ```
