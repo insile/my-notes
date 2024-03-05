@@ -1,3 +1,4 @@
+##### object 类方法
 - [[object.__new__()]]  构造方法
 - [[object.__init__()]] 初始化方法
 - [[object.__str__()]]  通过 str() 触发

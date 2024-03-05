@@ -1,5 +1,5 @@
 ##### type类
-- type类 是内置[[元类的定义与实例化|元类]]，用于创建其他类
+- type类 是内置[[Python 元类的定义与实例化|元类]]，用于创建其他类
 - type类 继承自 [[object类]]，object类 是 type类 的父类
 - [[type()]] 创建type类实例，就是一个类对象
 ```python
