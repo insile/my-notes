@@ -1,4 +1,4 @@
-##### **object.__format__(self, format_spec)**
+##### **`object.__format__(self, format_spec)`**
 - 在 Python 中，`__format__()` 方法是一个特殊的内置方法，用于定义对象的自定义格式化字符串。通过实现这个方法，您可以控制如何将对象转换为指定格式的字符串。[[format()]]
 ##### 自定义
 ```python
