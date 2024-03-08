@@ -13,7 +13,7 @@ class Person:
 ```
 - 类的实例化
 	- 实例化类是指创建类的对象，通常是将类看作一个函数去调用 `object = Classname(args)`
-	- 实例化通过构造方法 [[object.__new__()]] 和初始化方法 [[object.__init__()]] 来创建一个实例
+	- 实例化通过构造方法 [object.\_\_new\_\_()](object.__new__()) 和初始化方法 [object.\_\_init\_\_()](object.__init__()) 来创建一个实例
 ```python
 # 创建一个 Person 对象
 person1 = Person("Alice", 30)
