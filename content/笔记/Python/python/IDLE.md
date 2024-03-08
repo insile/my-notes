@@ -4,7 +4,7 @@
 - IDLE 位于 Python 安装目录可以直接点击打开或命令行调用
 ```shell
 # Anaconda 没有添加环境变量，需要先激活环境
-conda activate env-name
+conda activate <env-name>
 
 # 启动 Python IDLE 方式1
 idle
