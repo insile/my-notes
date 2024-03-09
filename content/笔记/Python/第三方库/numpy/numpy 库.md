@@ -4,7 +4,7 @@
 import numpy as np
 ```
 ##### numpy 主要API
-- [[numpy.数组类型]]
+- [[class numpy.ndarray]]
 - [[numpy.数据类型]]
 - [[numpy.常量]]
 - [[numpy.广播]]
