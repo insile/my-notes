@@ -8,7 +8,7 @@ current_date = pd.to_datetime('2023-08-15')
 new_date = current_date + pd.DateOffset(days=1)
 print(new_date)
 ```
-##### `DateOffset(n,normalize,**kwds)`
+- `pd.DateOffset(n,normalize,**kwds)`
 ```python
 import pandas as pd
 

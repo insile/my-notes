@@ -5,9 +5,9 @@
 **参数说明:**
 - `ts_input`：时间戳输入，可以是各种时间戳表示，如整数、字符串等。
 - `year`、`month`、`day`、`hour`、`minute`、`second`、`microsecond`：用于指定时间戳的具体日期和时间部分。
-- `tzinfo`：时区信息对象。 
+- `tzinfo`：时区对象，标准库 `datetime.timezone`，默认无。
 - `nanosecond`：用于指定纳秒部分。
-- `tz`：时区字符串。`tz='Asia/Shanghai'`
+- `tz`：时区字符串，`pytz.timezone`，默认无。`tz='Asia/Shanghai'`
 - `unit`：时间单位字符串，如 `'s'` 表示秒，`'ms'` 表示毫秒。
 - `fold`：用于处理 DST 时钟回退的折叠参数。
 

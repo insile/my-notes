@@ -30,4 +30,22 @@ df['TimeDifference'] = df['Timestamp'].diff()
 # 打印更新后的 DataFrame
 print(df)
 
+
+# 时区
+ts = pd.Timestamp("2016-01-01", tz="UTC")
+type(ts.tzinfo)
+# datetime.timezone
+
+# 东八区转UTC
+ts = pd.Timestamp("2016-01-01", tz=datetime.timezone(datetime.timedelta(hours=8)))
+# Timestamp('2016-01-01 00:00:00+0800', tz='UTC+08:00')
+ts.tz_convert('UTC')
+# Timestamp('2015-12-31 16:00:00+0000', tz='UTC')
+
+# 北京时间转UTC
+ts = pd.Timestamp("2016-01-01", tz='Asia/Shanghai')
+# Timestamp('2016-01-01 00:00:00+0800', tz='Asia/Shanghai')
+ts.tz_convert('UTC')
+# Timestamp('2015-12-31 16:00:00+0000', tz='UTC')
+
 ```

@@ -1,4 +1,5 @@
 ##### MultiIndex 类
+- 用于表示多层次的索引
 - [[MultiIndex.创建]]
 - MultiIndex 属性
 - MultiIndex 方法

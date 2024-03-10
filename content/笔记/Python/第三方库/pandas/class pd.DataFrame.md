@@ -7,8 +7,8 @@
 ```python
 data = {'one': pd.Series([1,2,3], index=['a','b','c']), 
 		'two': pd.Series([1,2,3,4], index=['a','b','c','d'])}
-
 df = pd.DataFrame(data)
+
 print(df)
 #	   one  two
 #	a  1.0    1
