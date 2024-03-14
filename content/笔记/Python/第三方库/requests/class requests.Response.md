@@ -1,6 +1,6 @@
 ##### class requests.Response
 - 响应对象，其中包含服务器对HTTP请求的响应。请求的返回值
-- requests.Response 实例属性
+- Response.实例属性
 ```python
 Response.status_code 
 	# HTTP响应状态, 200正常，其他不正常
@@ -24,7 +24,7 @@ Response.apparent_encoding
 Response.cookies 
 	# 服务器返回的CookieJar Cookies
 ```
-- requests.Response 实例方法
+- Response.实例方法
 ```python
 Response.raise_for_status()
 	# 主动捕获异常
