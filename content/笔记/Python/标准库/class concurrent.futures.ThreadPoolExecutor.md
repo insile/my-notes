@@ -1,4 +1,5 @@
 ##### class concurrent.futures.ThreadPoolExecutor
+- 线程池异步
 - `ThreadPoolExecutor.创建`
 ```python
 ThreadPoolExecutor(max_workers=None, thread_name_prefix='', initializer=None, initargs=())
@@ -8,7 +9,7 @@ ThreadPoolExecutor(max_workers=None, thread_name_prefix='', initializer=None, in
 ##### 示例
 ```python
 from concurrent.futures import ThreadPoolExecutor
-
+import time
 
 def task(name: str):
     """
@@ -16,9 +17,10 @@ def task(name: str):
     :param name: str, 任务名称
     :return: str, 任务完成消息
     """
-    print(f'{name} - step 1\n', end='')
-    print(f'{name} - step 2\n', end='')
-    return f'{name} complete'
+    print(f'{name} 点餐\n', end='')
+    time.sleep(1) 
+    print(f'{name} 拿餐\n', end='')
+    return f'{name} 完成'
 
 
 # 创建一个 ThreadPoolExecutor 对象，并使用 submit() 方法提交任务
@@ -29,6 +31,7 @@ with ThreadPoolExecutor() as execute:
     print(r1.result())
     print(r2.result())
 
+
 # 创建另一个 ThreadPoolExecutor 对象，并使用 map() 方法提交任务
 with ThreadPoolExecutor() as execute:
     r3 = execute.map(task, ['C', 'D'])  # 返回存储结果迭代器
@@ -36,4 +39,11 @@ with ThreadPoolExecutor() as execute:
     for r in r3:
         print(r)
 
+# A - step 1  
+# B - step 1
+# sleep(1) 
+# B - step 2  
+# A - step 2  
+# A complete  
+# B complete
 ```

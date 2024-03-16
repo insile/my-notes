@@ -1,4 +1,5 @@
 ##### class concurrent.futures.ProcessPoolExecutor
+- 进程池异步
 - `ProcessPoolExecutor.创建`
 ```python
 ProcessPoolExecutor(max_workers=None, mp_context=None, initializer=None, initargs=(), max_tasks_per_child=None)

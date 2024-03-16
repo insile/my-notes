@@ -8,4 +8,5 @@ from concurrent.futures import ProcessPoolExecutor
 - [[class concurrent.futures.Executor]] 抽象基类执行器
 	- [[class concurrent.futures.ThreadPoolExecutor]] 线程池异步
 	- [[class concurrent.futures.ProcessPoolExecutor]] 进程池异步
-
+- [[class concurrent.futures.Future]] 结果
+- [[concurrent.futures.wait()]] 等待

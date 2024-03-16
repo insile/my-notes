@@ -31,7 +31,7 @@ import asyncio
 # 定义异步任务函数
 async def async_task(name):
     print(f'点餐 {name}')
-    await asyncio.sleep(1)  # 模拟异步任务的执行
+    await asyncio.sleep(1)  # 模拟异步任务的执行 制作餐品
     print(f'拿餐 {name}')
 
 # 执行异步任务

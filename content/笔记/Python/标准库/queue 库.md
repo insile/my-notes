@@ -5,9 +5,9 @@
 import queue
 ```
 ##### queue 主要API
-- class queue.Queue(maxsize=0) 先进先出队列类
-- class queue.LifoQueue(maxsize=0) 先进后出队列类
-- class queue.PriorityQueue(maxsize=0) 优先级队列类
+- `class queue.Queue(maxsize=0)` 先进先出队列类
+- `class queue.LifoQueue(maxsize=0)` 先进后出队列类
+- `class queue.PriorityQueue(maxsize=0)` 优先级队列类
 ```python
 # 通用实例方法
 Queue.qsize()
