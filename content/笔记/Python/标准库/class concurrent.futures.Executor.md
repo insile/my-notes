@@ -43,4 +43,11 @@ with ThreadPoolExecutor() as execute:
 print('等待结束')
 # 线程池外等待shutdown
 
+
+# A 点餐
+# B 点餐
+# 继续运行
+# B 拿餐
+# A 拿餐
+# 等待结束
 ```

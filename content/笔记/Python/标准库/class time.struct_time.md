@@ -1,11 +1,11 @@
 ##### class time.struct_time 结构化时间类
-- 实例化方法
+- `struct_time.实例化方法`
 ```python
 time.gmtime()  # 当前 UTC 结构化时间，time.struct_time 对象
 time.localtime()  # 当前 本地时区 结构化时间，time.struct_time 对象
 time.strptime(string, format)  # 字符串 转 结构化时间，time.struct_time 对象
 ```
-- 实例属性
+- `struct_time.实例属性`
 ```python
 struct_time.tm_year
 # 年份

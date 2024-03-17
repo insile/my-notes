@@ -7,5 +7,6 @@ import asyncio
 await asyncio.sleep(1, result='hello')
 ```
 ##### asyncio 主要API
-- [[asyncio.运行器]]
+- [[asyncio.事件循环]]
 - [[asyncio.可等待对象]]
+- [[asyncio.队列集]]

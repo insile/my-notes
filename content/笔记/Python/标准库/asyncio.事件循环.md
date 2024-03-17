@@ -1,5 +1,5 @@
-##### asyncio.运行器
-- 运行协程
+##### asyncio.事件循环
+- 事件循环是协程运行环境
 - [[asyncio.run()]]
 - [[class asyncio.Runner]]
 ```python
@@ -7,12 +7,12 @@ import asyncio
  
 # 第一个协程
 async def task_coro1():
-    print('Hello from first coro')
+    print('正在运行第一个协程')
     await asyncio.sleep(1)
 
 # 第二个协程
 async def task_coro2():
-    print('Hello from second coro')
+    print('正在运行第二个协程')
     await asyncio.sleep(1)
  
 # 结构1
@@ -23,8 +23,8 @@ asyncio.run(task_coro2())  # 创建第二个事件循环运行协程
 # 结构2
 async def main():
 	# 创建主协程
-    await task_coro1()
-    await task_coro2()
+    await task_coro1()  # 等待第一个协程
+    await task_coro2()  # 等待第二个协程
 asyncio.run(main())  # 创建一个事件循环运行协程
 # 必须使用新的包装协程作为执行所有协程的入口点
 

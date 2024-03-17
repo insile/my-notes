@@ -1,5 +1,5 @@
 ##### class pprint.PrettyPrinter 美化打印类
--  实例化方法
+-  `PrettyPrinter.实例化方法`
 ```python
 pprint.PrettyPrinter(indent=1, width=80, depth=None, 
 					 stream=None, *, compact=False, 
@@ -13,7 +13,7 @@ pprint.PrettyPrinter(indent=1, width=80, depth=None,
 	# underscore_numbers（bool）：设置为True时，数字中的下划线将被保留并用于增强可读性，默认为False。
 
 ```
-- 实例方法
+- `PrettyPrinter.实例方法`
 ```python
 PrettyPrinter.pprint(object)
 # 在所配置的流上打印 object 的格式化表示，并附加一个换行符。
