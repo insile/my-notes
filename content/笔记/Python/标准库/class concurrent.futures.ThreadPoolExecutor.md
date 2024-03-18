@@ -18,7 +18,7 @@ def task(name: str):
     :return: str, 任务完成消息
     """
     print(f'{name} 点餐\n', end='')
-    time.sleep(1) 
+    time.sleep(1)  # 线程阻塞
     print(f'{name} 拿餐\n', end='')
     return f'{name} 完成'
 
