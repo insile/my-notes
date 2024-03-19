@@ -1,0 +1,106 @@
+##### Browser.new_context()
+- `Browser.new_context()`
+	- 创建一个新的浏览器上下文。它不会与其他浏览器上下文共享 cookie/缓存。
+	- 返回 [[class BrowserContext]]
+	- `accept_downloads: bool (optional)`
+		- 是否自动下载所有附件。默认为 true 接受所有下载的位置。
+	- `base_url: str (optional)`
+		- 根url
+	- `bypass_csp: bool (optional)`
+		- 切换绕过页面的内容安全策略。默认值为 false 。
+	- `color_scheme: "light"|"dark"|"no-preference"|"null" (optional)`
+		- 颜色偏好
+	- `device_scale_factor: float (optional)`
+		- 设备比例因子（可视为 dpr）。默认值为 1
+	- `extra_http_headers: Dict[str, str] (optional)`
+		- 一个对象，其中包含要随每个请求一起发送的其他 HTTP 标头。默认为无。
+	- `forced_colors: "active"|"none"|"null" (optional)`
+		- 模拟 'forced-colors' 媒体功能
+	- `geolocation: Dict (optional)`
+		- `latitude: float`
+			- 纬度介于 -90 和 90 之间。
+		- `longitude: float`
+			- 经度介于 -180 和 180 之间。
+		- accuracy `float (optional)`
+			- 非负精度值。默认值为 0 。
+	- `has_touch: bool (optional)`
+		- 指定窗口是否支持触摸事件
+	- `http_credentials: Dict (optional)`
+		- 用于 HTTP 身份验证的凭据。如果未指定源，则在未经授权的响应时将用户名和密码发送到任何服务器。
+		- `username` str
+		- `password` str
+		- `origin` str (optional)
+	- `ignore_https_errors: bool (optional)`
+		- 发送网络请求时是否忽略 HTTPS 错误。默认值为 false 。
+	- `is_mobile: bool (optional)`
+		- 是否考虑了 meta viewport 标记并启用了触摸事件
+	- `java_script_enabled: bool (optional)`
+		- 是否在上下文中启用 JavaScript。默认值为 true 
+	- `locale: str (optional)`
+		- 指定用户区域设置，例如 en-GB 、 de-DE 等。区域设置将影响 navigator.language 值、 Accept-Language 请求标头值以及数字和日期格式规则。
+	- `no_viewport: bool (optional)`
+		- 不强制固定视口，允许在标题模式下调整窗口大小。
+	- `offline: bool (optional)`
+		- 是否模拟网络脱机。默认值为 false 。
+	- `permissions: List[str] (optional)`
+		- 要授予此上下文中所有页面的权限列表。
+	- `proxy: Dict (optional)`
+		- 要用于此上下文的网络代理设置。默认为无。
+		- `server: str`
+			- 用于所有请求的代理。支持 HTTP 和 SOCKS 代理
+		- `bypass: str (optional)`
+			- 可选的逗号分隔域以绕过代理
+		- `username: str (optional)`
+			- HTTP 代理需要身份验证时要使用的可选用户名。
+		- `password: str (optional)`
+			- HTTP 代理需要身份验证时使用的可选密码。
+	- `record_har_content: "omit"|"embed"|"attach" (optional)`
+		- 用于控制资源内容管理的可选设置。如果指定，则 omit 不保留内容。如果指定，资源 attach 将作为单独的文件保存，所有这些文件都与 HAR 文件一起存档。默认为 embed ，根据 HAR 规范以内联方式存储 HAR 文件的内容。
+	- `record_har_mode: "full"|"minimal" (optional)`
+		- 设置为 minimal 时，仅记录从 HAR 路由所需的信息。这省略了从 HAR 重播时不使用的大小、时间、页面、cookie、安全性以及其他类型的 HAR 信息。默认值为 full 。
+	- `record_har_omit_content: bool (optional)`
+		- 用于控制是否从 HAR 省略请求内容的可选设置。默认值为 false 。
+	- `record_har_path: Union[str, pathlib.Path] (optional)`
+		- 启用所有页面的 HAR 记录到文件系统上的指定 HAR 文件中。如果未指定，则不记录 HAR。确保调用 browser_context.close（） 以保存 HAR。
+	- `record_har_url_filter: str|Pattern (optional)`
+	- `record_video_dir: Union[str, pathlib.Path] (optional)`
+		- 启用指定目录中所有页面的视频录制。如果未指定，则不录制视频。确保调用 browser_context.close（） 来保存视频。
+	- `record_video_size: Dict (optional)`
+		- 录制视频的尺寸。如果未指定，则大小将等于 viewport 缩小以适应 800x800。如果未明确配置，则 viewport 视频大小默认为 800x450。如有必要，每个页面的实际图片将缩小以适应指定的大小。
+		- `width: int`
+			-  视频帧宽度。
+		- `height: int`
+			- 视频帧高度。
+	- `reduced_motion: "reduce"|"no-preference"|"null" (optional)`
+		- 模拟 'prefers-reduced-motion' 媒体功能，支持的值为 'reduce' 、 'no-preference' 。有关更多详细信息，请参阅 page.emulate_media（）。将仿真重置 'null' 为系统默认值。默认值为 'no-preference' 。
+	- `screen: Dict (optional)`
+		- 通过 模拟 window.screen 网页内可用的一致窗口屏幕大小。仅在设置 时使用 viewport 。
+		- `width: int`
+			-  页面宽度（以像素为单位）。
+		- `height: int`
+			-  页面高度（以像素为单位）。
+	- `service_workers: "allow"|"block" (optional)`
+		- 是否允许站点注册服务辅助角色。默认值为 'allow' 。
+	- `storage_state: Union[str, pathlib.Path]|Dict (optional)`
+		- `cookies: List[Dict]`
+			- `name: str`
+			- `value: str`
+			- `domain: str`
+			- `path: str`
+		- `origins: List[Dict]`
+			- `origin: str`
+			- `localStorage: List[Dict]`
+				- `name: str`
+				- `value: str`
+	- `strict_selectors: bool (optional)`
+		- 如果设置为 true，则为此上下文启用严格选择器模式。在严格选择器模式下，当多个元素与选择器匹配时，将抛出对选择器的所有操作，这些操作意味着单个目标 DOM 元素。此选项不会影响任何定位器 API（定位器始终严格）。默认值为 false 。请参阅定位器以了解有关严格模式的更多信息。
+	- `timezone_id: str (optional)`
+		- 更改上下文的时区。请参阅 ICU 的元区域.txt以获取支持的时区 ID 列表。默认为系统时区。
+	- `user_agent: str (optional)`
+		- 在此上下文中使用的特定用户代理。
+	- `viewport: NoneType|Dict (optional)`
+		- 为每个页面设置一致的视口。默认为 1280x720 视口。 no_viewport 禁用固定视口。了解有关视口仿真的详细信息。
+		- `width: int`
+			-  页面宽度（以像素为单位）。
+		- `height: int`
+			- 页面高度（以像素为单位）。

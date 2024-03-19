@@ -1,0 +1,47 @@
+##### BrowserType.launch()
+- `BrowserType.launch()`
+	- 返回值 [[class Browser]] 实例
+	- `args: List[str] (optional)`
+		- 要传递给浏览器实例的其他参数。Chromium标志列表可以在这里找到。
+	- `channel: str (optional)`
+		- 浏览器分发渠道。支持的值是“chrome”、“chrome-beta”、“chrome-dev”、“chrome-canary”、“msedge”、“msedge-beta”、“msedge-dev”、“msedge-canary”
+	- `chromium_sandbox: bool (optional)`
+		- 启用 Chromium 沙盒。默认值为 false 。
+	- `devtools: bool (optional Chromium-only)`
+		- 是否为每个选项卡自动打开“开发人员工具”面板 
+		- 如果此选项为 true，则会设置有头即 headless 为 false 
+	- `downloads_path: Union[str, pathlib.Path] (optional)`
+		- 如果指定，接受的下载将下载到此目录中。否则，将创建临时目录，并在关闭浏览器时将其删除。在任一情况下，当关闭创建下载的浏览器上下文时，将删除下载。
+	- `env: Dict[str, str|float|bool] (optional)`
+		- 指定浏览器可见的环境变量。默认值为 process.env 。
+	- `executable_path: Union[str, pathlib.Path] (optional)`
+		- 要运行的浏览器可执行文件的路径，而不是捆绑的可执行文件。如果为相对路径，则 executable_path 相对于当前工作目录解析。请注意，Playwright仅适用于捆绑的Chromium，Firefox或WebKit，使用风险自负。
+	- `firefox_user_prefs: Dict[str, str|float|bool] (optional)`
+		- 火狐用户偏好。
+	- `handle_sighup: bool (optional)`
+		- 关闭 SIGHUP 上的浏览器进程。默认值为 true 。
+	- `handle_sigint: bool (optional)`
+		- 在 Ctrl-C 上关闭浏览器进程。默认为 true 。
+	- `handle_sigterm: bool (optional)`
+		- 关闭 SIGTERM 上的浏览器进程。默认值为 true 。
+	- `headless: bool (optional)`
+		- 是否在无头模式下运行浏览器。除非选项 devtools 为 true，否则默认为 true 。
+	- `ignore_default_args: bool|List[str] (optional)`
+		- 如果 true ，剧作家不传递自己的配置参数，只使用来自 args 的配置参数。如果给定了一个数组，则过滤掉给定的默认参数。危险的选择;请小心使用。默认值为 false 。
+	- `proxy: Dict (optional)`
+		- `server: str`
+			- 用于所有请求的代理。支持 HTTP 和 SOCKS 代理，例如 http://myproxy.com:3128 或 socks5://myproxy.com:3128 。短格式 myproxy.com:3128 被视为 HTTP 代理。
+		- `bypass: str (optional)`
+			- 可选的逗号分隔域以绕过代理，例如 ".com, chromium.org, .domain.com" 。
+		- `username: str (optional)`
+			- HTTP 代理需要身份验证时要使用的可选用户名。
+		- `password: str (optional)`
+			- HTTP 代理需要身份验证时使用的可选密码。
+	- `slow_mo: float (optional)`
+		- 将剧作家操作减慢指定的毫秒数。很有用，这样您就可以看到发生了什么。
+	- `timeout: float (optional)`
+		- 等待浏览器实例启动的最长时间（以毫秒为单位）。默认值为 30000 （30 秒）。通过 0 以禁用超时。
+	- `traces_dir: Union[str, pathlib.Path] (optional)`
+		- 如果指定，跟踪将保存到此目录中。
+
+
