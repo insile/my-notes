@@ -4,7 +4,7 @@
 ```python
 np.expand_dims(a, axis)
 	# 增加一个 指定维度 
-	# np.expand_dims([1, 2, 3], axis=0)  (3,)->(1,4)
+	# np.expand_dims([1, 2, 3], axis=0)  (3,)->(1,3)
 	# np.expand_dims([[1, 2], [3, 4]], axis=2)  (2,2)->(2,2,1)
 np.squeeze(a, axis=None)
 	# 去除 shape 为 1 的轴
