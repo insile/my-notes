@@ -1,4 +1,4 @@
-#### Python
+#### 0 Python
 - [[什么是 Python]]
 - [[安装 Python]]
 ##### 1 [[基础语法]]

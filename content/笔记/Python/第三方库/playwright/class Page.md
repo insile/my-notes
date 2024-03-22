@@ -16,5 +16,6 @@ def run(playwright):
 with sync_playwright() as playwright:
     run(playwright)
 ```
-- [[Page.实例方法]]
 - [[Page.实例属性]]
+- [[Page.实例方法]]
+

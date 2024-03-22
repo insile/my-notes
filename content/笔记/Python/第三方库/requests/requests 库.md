@@ -1,6 +1,6 @@
 ##### requests 库
 - [[requests.说明]]
-- [[requests.基本使用]]
+- [[requests.百度搜索]]
 ```python
 import requests
 ```

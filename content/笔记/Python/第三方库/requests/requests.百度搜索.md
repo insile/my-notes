@@ -1,5 +1,4 @@
-##### requests.基本使用
-- 百度搜索 Python
+##### requests.百度搜索
 ```python
 import requests
 

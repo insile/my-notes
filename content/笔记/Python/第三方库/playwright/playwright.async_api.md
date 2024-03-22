@@ -5,7 +5,7 @@ import asyncio
 ```
 - [[async_playwright()]]  顶层API
 ---
-- 与同步相同
+- 命名与同步相同
 ```python
 import asyncio
 from playwright.async_api import async_playwright, Playwright

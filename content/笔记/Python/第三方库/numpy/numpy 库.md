@@ -17,7 +17,7 @@ import numpy as np
 - [[numpy.位运算]]
 - [[numpy.线性代数]]
 - [[numpy.掩码数组]]
-- [[numpy.搜索排序计数]]
+- [[numpy.索引搜索排序计数]]
 - [[numpy.函数式编程]]
 - [[numpy.窗口函数]]
 - [[numpy.输入输出]]

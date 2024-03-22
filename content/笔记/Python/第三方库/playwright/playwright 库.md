@@ -1,5 +1,6 @@
 ##### playwright 库
 - 浏览器自动化
+- [[playwright.百度搜索]]
 ```python
 from playwright.sync_api import sync_playwright, Playwright
 from playwright.async_api import async_playwright, Playwright
