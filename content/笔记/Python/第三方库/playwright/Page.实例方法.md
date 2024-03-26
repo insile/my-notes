@@ -1,91 +1,111 @@
 ##### Page.实例方法
-- Page.基础操作
-```python
-Page.goto()
-	# 导航到指定的 URL。返回 Response 实例
-Page.reload()
-	# 此方法重新加载当前页，方式与用户触发浏览器刷新相同。返回 Response 实例
-Page.go_back()
-	# 在浏览器历史记录中后退一步。返回 Response 实例
-Page.go_forward()
-	# 在浏览器历史记录中前进一步。返回 Response 实例
-Page.close()
-	# 关闭页面
-Page.content()
-	# 获取页的完整 HTML 内容，包括 doctype。返回 str
-Page.opener()
-	# 用于获取打开当前页面的父页面。返回 Page.实例
-Page.pause()
-	# 暂停脚本执行
-Page.pdf()
-	# 打印pdf。返回 bytes
-Page.screenshot()
-	# 截图。返回 bytes
-Page.title()
-	# 返回页面的标题。
-```
-- Page.定位器
-```python
-Page.locator()
-	# 返回一个元素定位器。返回 Locator 实例
-Page.get_by_alt_text()
-	# 根据元素的 alt 文本定位。返回 Locator 实例
-Page.get_by_label()
-	# 根据元素的标签定位。返回 Locator 实例
-Page.get_by_placeholder()
-	# 允许通过占位符文本定位输入元素。返回 Locator 实例
-Page.get_by_role()
-	# 允许根据 ARIA 角色、 ARIA 属性和可访问名称定位元素。返回 Locator 实例
-Page.get_by_test_id()
-	# 通过测试 ID 定位元素。返回 Locator 实例
-Page.get_by_text()
-	# 允许定位包含给定文本的元素。返回 Locator 实例
-Page.get_by_title()
-	# 允许根据标题属性定位元素。返回 Locator 实例
-```
-- Page.期望
-```python
-Page.expect_console_message
-Page.expect_download
-Page.expect_event
-Page.expect_file_chooser
-Page.expect_popup
-Page.expect_request
-Page.expect_request_finished
-Page.expect_response
-Page.expect_websocket
-Page.expect_worker
-```
-- Page.导航操作
-```python
-Page.add_init_script
-Page.add_script_tag
-Page.add_style_tag
-Page.bring_to_front
-Page.drag_and_drop
-Page.emulate_media
-Page.evaluate
-Page.evaluate_handle
-
-
-
-Page.expose_binding
-Page.expose_function
-
-Page.frame
-Page.frame_locator
-
-Page.route
-Page.unroute
-Page.route_from_har
-Page.set_content
-Page.set_default_navigation_timeout
-Page.set_default_timeout
-Page.set_extra_http_headers
-Page.set_viewport_size
-
-Page.wait_for_event
-Page.wait_for_function
-Page.wait_for_load_state
-Page.wait_for_url
-```
+- [[Page.add_init_script()]]
+    - 向页面添加初始化脚本，该脚本将在页面加载时执行
+- [[Page.add_locator_handler()]]
+    - 添加一个定位器处理程序，用于自定义页面元素的定位逻辑
+- [[Page.add_script_tag()]]
+    - 向页面添加 JavaScript 脚本标签
+- [[Page.add_style_tag()]]
+    - 向页面添加样式标签
+- [[Page.bring_to_front()]]
+    - 将页面置于浏览器窗口的前台
+- [[Page.close()]]
+    - 关闭页面
+- [[Page.content()]]
+    - 获取页面的 HTML 内容
+- [[Page.drag_and_drop()]]
+    - 在页面上执行拖放操作
+- [[Page.emulate_media()]]
+    - 模拟页面上的媒体设备
+- [[Page.evaluate()]]
+    - 在页面上下文中执行 JavaScript 代码
+- [[Page.evaluate_handle()]]
+    - 在页面上下文中执行 JavaScript 代码，并返回句柄
+- [[Page.expect_console_message()]]
+    - 等待页面上的控制台消息
+- [[Page.expect_download()]]
+    - 等待页面上的下载
+- [[Page.expect_event()]]
+    - 等待页面上的特定事件
+- [[Page.expect_file_chooser()]]
+    - 等待页面上的文件选择器
+- [[Page.expect_popup()]]
+    - 等待页面上的弹出窗口
+- [[Page.expect_request()]]
+    - 等待页面上的网络请求
+- [[Page.expect_request_finished()]]
+    - 等待页面上的网络请求完成
+- [[Page.expect_response()]]
+    - 等待页面上的网络响应
+- [[Page.expect_websocket()]]
+    - 等待页面上的 WebSocket 连接
+- [[Page.expect_worker()]]
+    - 等待页面上的 Web Worker
+- [[Page.expose_binding()]]
+    - 向页面公开 Python 函数
+- [[Page.expose_function()]]
+    - 向页面公开 JavaScript 函数
+- [[Page.frame()]]
+    - 获取页面中的 iframe 对象
+- [[Page.frame_locator()]]
+    - 使用定位器定位页面中的 iframe
+- [[Page.get_by_alt_text()]]
+    - 使用 alt 文本获取页面中的元素
+- [[Page.get_by_label()]]
+    - 使用标签获取页面中的元素
+- [[Page.get_by_placeholder()]]
+    - 使用占位符获取页面中的元素
+- [[Page.get_by_role()]]
+    - 使用角色获取页面中的元素
+- [[Page.get_by_test_id()]]
+    - 使用测试 ID 获取页面中的元素
+- [[Page.get_by_text()]]
+    - 使用文本获取页面中的元素
+- [[Page.get_by_title()]]
+    - 使用标题获取页面中的元素
+- [[Page.go_back()]]
+    - 在浏览器历史记录中后退
+- [[Page.go_forward()]]
+    - 在浏览器历史记录中前进
+- [[Page.goto()]]
+    - 导航到指定的 URL
+- [[Page.locator()]]
+    - 创建一个新的元素定位器
+- [[Page.opener()]]
+    - 获取打开当前页面的页面
+- [[Page.pause()]]
+    - 暂停执行脚本，用于调试目的
+- [[Page.pdf()]]
+    - 生成页面的 PDF
+- [[Page.reload()]]
+    - 重新加载页面
+- [[Page.route()]]
+    - 拦截和修改页面上的网络请求和响应
+- [[Page.route_from_har()]]
+    - 使用 HAR 文件配置路由
+- [[Page.screenshot()]]
+    - 对页面进行截图
+- [[Page.set_content()]]
+    - 设置页面的 HTML 内容
+- [[Page.set_default_navigation_timeout()]]
+    - 设置默认的导航超时时间
+- [[Page.set_default_timeout()]]
+    - 设置默认的操作超时时间
+- [[Page.set_extra_http_headers()]]
+    - 设置额外的 HTTP 标头
+- [[Page.set_viewport_size()]]
+    - 设置视口大小
+- [[Page.title()]]
+    - 获取页面的标题
+- [[Page.unroute()]]
+    - 取消对特定路由的拦截
+- [[Page.unroute_all()]]
+    - 取消对所有路由的拦截
+- [[Page.wait_for_event()]]
+    - 等待指定事件发生
+- [[Page.wait_for_function()]]
+    - 等待函数返回 true
+- [[Page.wait_for_load_state()]]
+    - 等待页面加载状态
+- [[Page.wait_for_url()]]
+    - 等待页面 URL 变化

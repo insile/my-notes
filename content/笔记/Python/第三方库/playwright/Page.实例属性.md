@@ -1,29 +1,26 @@
 ##### Page.实例属性
-```python
-Page.mouse
-	# 返回 Mouse 实例
-Page.keyboard
-	# 返回 Keyboard 实例
-Page.touchscreen
-	# 返回 Touchscreen 实例
+- `Page.context` -> [[class BrowserContext|BrowserContext]]
+    - 返回页面所属的浏览器上下文对象
+- `Page.frames` -> List[Frame]
+    - 返回页面中的所有 frame 对象的列表
+- `Page.is_closed` -> bool
+    - 返回页面是否已关闭的布尔值
+- `Page.keyboard` -> [[class Keyboard|Keyboard]]
+    - 返回页面的键盘对象，用于模拟键盘输入
+- `Page.main_frame` -> [[class Frame|Frame]]
+    - 返回页面的主 frame 对象
+- `Page.mouse` -> [[class Mouse|Mouse]]
+    - 返回页面的鼠标对象，用于模拟鼠标操作
+- `Page.request` -> [[class APIRequestContext|APIRequestContext]]
+    - 返回页面的 API 请求上下文对象
+- `Page.touchscreen` -> [[class Touchscreen|Touchscreen]]
+    - 返回页面的触摸屏对象，用于模拟触摸操作
+- `Page.url` -> str
+    - 返回页面的 URL
+- `Page.video` -> NoneType|Video
+    - 返回页面的视频对象，如果未录制视频，则返回 None
+- `Page.viewport_size` -> NoneType|Dict
+    - 返回页面的视口大小
+- `Page.workers` -> List[Worker]
+    - 返回页面中的所有 Worker 对象的列表
 
-Page.url
-	# 返回 url
-Page.video
-	# 与此页关联的视频对象。返回 Video 实例
-Page.is_closed
-	# 页面关闭判断。返回 bool
-Page.viewport_size
-	# 视窗大小。Dict[width, height]
-Page.context
-	# 获取页所属的浏览器上下文。返回 BrowserContext 实例
-Page.frames
-	# 获取当前页面中的所有框架。返回 List[Frame]
-Page.main_frame
-	# 页面的主框架。返回 Frame 实例
-
-Page.request
-	# 与此页关联的 API 测试助手。返回 APIRequestContext 实例
-Page.workers
-	# 此方法返回与该页关联的所有专用 WebWorkers。返回 List[Worker]
-```

@@ -1,6 +1,6 @@
 ##### class Page
 - `Page.说明`
-	- 提供了与浏览器中的单个选项卡或 Chromium 中的扩展后台页交互的方法。一个浏览器实例可能有多个页面实例。通过[[class BrowserContext|BrowserContext.new_page()]]或[[Browser.new_page()]]创建
+	- 提供了与浏览器中的单个选项卡或 Chromium 中的扩展后台页交互的方法。一个浏览器实例可能有多个页面实例。通过 [[BrowserContext.new_page()]] 或 [[Browser.new_page()]] 创建
 ```python
 from playwright.sync_api import sync_playwright
 
@@ -16,6 +16,6 @@ def run(playwright):
 with sync_playwright() as playwright:
     run(playwright)
 ```
-- [[Page.实例属性]]
 - [[Page.实例方法]]
-
+- [[Page.实例属性]]
+- [[Page.事件]]

@@ -1,0 +1,23 @@
+##### BrowserContext.事件
+- `BrowserContext.on("backgroundpage")` - [[class Page|Page]]
+	- 
+- `BrowserContext.on("close")` - [[class BrowserContext|BrowserContext]]
+	- 
+- `BrowserContext.on("console")` - [[class ConsoleMessage|ConsoleMessage]]
+	- 
+- `BrowserContext.on("dialog")` - [[class Dialog|Dialog]]
+	- 
+- `BrowserContext.on("page")` - [[class Page|Page]]
+	- 
+- `BrowserContext.on("request")` - [[class Request|Request]]
+	- 
+- `BrowserContext.on("requestfailed")` - [[class Request|Request]]
+	- 
+- `BrowserContext.on("requestfinished")` - [[class Request|Request]]
+	- 
+- `BrowserContext.on("response")` - [[class Response|Response]]
+	- 
+- `BrowserContext.on("serviceworker")` - [[class Worker|Worker]]
+	- 
+- `BrowserContext.on("weberror")` - [[class WebError|WebError]]
+	- 

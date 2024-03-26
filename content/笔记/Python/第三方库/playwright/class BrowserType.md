@@ -1,6 +1,6 @@
 ##### class BrowserType
 - `BrowserType.说明`
-	- 提供了启动特定浏览器实例或连接到现有实例的方法, 通过[[class Playwright|Playwright.chromium]]等创建
+	- 提供了启动特定浏览器实例或连接到现有实例的方法, 通过 [[class Playwright|Playwright.chromium]] 等创建
 ```python
 from playwright.sync_api import sync_playwright
 
@@ -15,9 +15,5 @@ def run(playwright):
 with sync_playwright() as playwright:
     run(playwright)
 ```
-- `BrowserType.实例方法`
-	- [[BrowserType.launch()]]  返回浏览器实例
-
-
-
-
+- [[BrowserType.实例方法]]
+- [[BrowserType.实例属性]]

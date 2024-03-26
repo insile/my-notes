@@ -21,5 +21,7 @@ async def run(playwright: Playwright):
 async def main():
     async with async_playwright() as playwright:
         await run(playwright)
+
 asyncio.run(main())
+# 事件循环主协程
 ```

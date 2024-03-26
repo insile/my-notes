@@ -16,26 +16,18 @@ with sync_playwright() as playwright:
     run(playwright)  # 通过上下文管理器创建了Playwright实例
 ```
 - `Playwright.实例方法`
-```python
-playwright.stop()
-	# 终止此 Playwright 实例
-	# 上下文管理器结束时自动终止
-```
+	- `playwright.stop()` -> NoneType
+		- 终止此 Playwright 实例, 上下文管理器结束时自动终止
 - `Playwright.实例属性`
-```python
-playwright.chromium
-	# 此对象可用于启动或连接 Chromium，返回 BrowserType 的实例。
-playwright.firefox
-	# 此对象可用于启动或连接到 Firefox，返回 BrowserType 的实例。
-playwright.webkit
-	# 此对象可用于启动或连接到 WebKit，返回 BrowserType 的实例。
-
-playwright.request
-	# 公开可用于 Web API 测试的 API，返回 APIRequest 的实例。
-
-playwright.selectors
-	# 选择器，返回 Selectors 的实例。
-
-playwright.devices
-	# 返回与 Browser.new _ context ()或 Browser.new _ page ()一起使用的设备字典。
-```
+	- `playwright.chromium` -> [[class BrowserType|BrowserType]] 
+		- 此对象可用于启动或连接 Chromium
+	- `playwright.firefox` -> [[class BrowserType|BrowserType]] 
+		- 此对象可用于启动或连接到 Firefox
+	- `playwright.webkit` -> [[class BrowserType|BrowserType]] 
+		- 此对象可用于启动或连接到 WebKit
+	- `playwright.request` -> [[class APIRequest|APIRequest]] 
+		- 公开可用于 Web API 测试的 API
+	- `playwright.selectors` -> [[class Selectors|Selectors]] 
+		- 选择器
+	- `playwright.devices` -> Dict
+		- 返回与 [[Browser.new_context()]] 或 [[Browser.new_page()]] 一起使用的设备字典。
