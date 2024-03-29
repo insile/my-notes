@@ -17,7 +17,7 @@
     - 返回页面的触摸屏对象，用于模拟触摸操作
 - `Page.url` -> str
     - 返回页面的 URL
-- `Page.video` -> NoneType|Video
+- `Page.video` -> NoneType|[[class Video|Video]]
     - 返回页面的视频对象，如果未录制视频，则返回 None
 - `Page.viewport_size` -> NoneType|Dict
     - 返回页面的视口大小

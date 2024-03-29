@@ -50,9 +50,9 @@
 - [[Page.frame_locator()]]
     - 使用定位器定位页面中的 iframe
 - [[Page.get_by_alt_text()]]
-    - 使用 alt 文本获取页面中的元素
+    - 使用替代文本获取页面中的元素
 - [[Page.get_by_label()]]
-    - 使用标签获取页面中的元素
+    - 通过关联标签的文本定位表单控件
 - [[Page.get_by_placeholder()]]
     - 使用占位符获取页面中的元素
 - [[Page.get_by_role()]]

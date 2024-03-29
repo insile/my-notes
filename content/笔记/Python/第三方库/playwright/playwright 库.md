@@ -1,6 +1,8 @@
 ##### playwright 库
 - 浏览器自动化
 - [[playwright.百度搜索]]
+- [[playwright.定位器]]
+- [[playwright.断言]]
 - [[playwright.事件等待]]
 ```python
 from playwright.sync_api import sync_playwright, Playwright

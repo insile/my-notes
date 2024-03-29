@@ -13,7 +13,11 @@ popup.value.goto("https://wikipedia.org")
 # 等待弹出窗口
 ```
 - 事件监听器
+	- [[Browser.事件]]
+	- [[BrowserContext.事件]]
 	- [[Page.事件]]
+	- [[WebSocket.事件]]
+	- [[Worker.事件]]
 ```python
 def print_request_sent(request):
 	# 请求处理函数

@@ -29,14 +29,14 @@ from playwright.sync_api import sync_playwright, Playwright
 			- [[class ConsoleMessage]] 代表浏览器中的控制台消息
 			- [[class Tracing]] 操作追踪
 			- [[class Video]] 录制视频
-	- [[class Selectors]] 自定义选择器引擎
 	- [[class APIRequest]]  用于发出 API 请求的对象
 		- [[class APIRequestContext]] API 请求的上下文对象
 		- [[class APIResponse]] API 请求的响应对象
+	- [[class Selectors]] 自定义选择器引擎
 - [[class Error]] 异常对象
 	- [[class TimeoutError]] 超时异常
 	- [[class WebError]] 网络异常
-- Assertions 断言
+- [[playwright.断言|Assertions]] 断言
 	- [[class APIResponseAssertions]] API响应断言
 	- [[class LocatorAssertions]] 定位器断言
 	- [[class PageAssertions]] 页面断言

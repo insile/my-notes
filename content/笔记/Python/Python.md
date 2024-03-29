@@ -1,4 +1,4 @@
-#### 0 Python
+#### 0 Python[^1]
 - [[什么是 Python]]
 - [[安装 Python]]
 ##### 1 [[基础语法]]
@@ -39,3 +39,5 @@
         crossorigin="anonymous"
         async>
 </script>
+
+[^1]: https://docs.python.org/zh-cn/3/index.html#
