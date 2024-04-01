@@ -1,4 +1,4 @@
-##### requests 库
+##### requests 库[^1]
 - [[requests.说明]]
 - [[requests.百度搜索]]
 ```python
@@ -11,6 +11,6 @@ import requests
 - [[class requests.Response|class requests.Response]]  响应
 
 
-
+[^1]: https://requests.readthedocs.io/projects/cn/zh-cn/latest/api.html
 
 

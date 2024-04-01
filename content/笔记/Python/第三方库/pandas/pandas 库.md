@@ -1,4 +1,4 @@
-##### pandas 库
+##### pandas 库[^1]
 - [[pandas.说明]]
 ```python
 import pandas as pd
@@ -15,3 +15,5 @@ import pandas as pd
 - [[class pd.GroupBy]] - 分组对象
 - [[class pd.Resampler]] - 重采样对象
 
+
+[^1]: https://pandas.pydata.org/docs/reference/index.html

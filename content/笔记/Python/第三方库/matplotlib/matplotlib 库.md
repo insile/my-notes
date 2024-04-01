@@ -1,4 +1,4 @@
-##### matplotlib 库
+##### matplotlib 库[^1]
 - [[matplotlib.说明]]
 - [[matplotlib.图表组成]]
 - [[matplotlib.快速布局]]
@@ -15,3 +15,7 @@ from matplotlib import rcParams
 - [[class matplotlib.figure.Figure]] 布局
 - [[class matplotlib.axes.Axes]] 图表
 - [[class matplotlib.axis.Axis]] 坐标轴
+
+
+
+[^1]: https://matplotlib.org/stable/api/index

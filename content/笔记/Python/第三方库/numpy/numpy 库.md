@@ -1,4 +1,4 @@
-##### numpy 库
+##### numpy 库[^1]
 - [[numpy.说明]]
 ```python
 import numpy as np
@@ -22,6 +22,8 @@ import numpy as np
 - [[numpy.窗口函数]]
 - [[numpy.输入输出]]
 
+
+[^1]: https://numpy.org/doc/stable/reference/index.html
 
 
 
