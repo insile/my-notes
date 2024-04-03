@@ -21,7 +21,7 @@ class 子类(父类, metaclass=元类):
     # 代码块
 ```
 
-```
+```python
 # type类创建类对象Person，通过type.__new__()
 class Person(object, metaclass=type):  
     def __init__(self, name, age):  
