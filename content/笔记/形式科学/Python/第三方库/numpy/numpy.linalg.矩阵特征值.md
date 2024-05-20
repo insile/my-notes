@@ -9,3 +9,6 @@ linalg.eigvals(a)
 linalg.eigh(a, UPLO='L')
 	# 计算埃尔米特矩阵或实对称矩阵的特征值和特征向量
 ```
+
+
+
