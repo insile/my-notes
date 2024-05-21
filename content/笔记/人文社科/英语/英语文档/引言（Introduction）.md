@@ -1,0 +1,5 @@
+- 引言（Introduction）
+	- "In recent years, there has been a growing interest in..."
+	- "The issue of [主题] has become increasingly important due to..."
+	- "It is widely recognized that..."
+	- "This essay will explore the various aspects of..."
