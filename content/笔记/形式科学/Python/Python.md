@@ -1,4 +1,4 @@
-#### 0 Python[^1]
+#### 0 [Python](https://docs.python.org/zh-cn/3/index.html)
 - [[什么是 Python]]
 - [[安装 Python]]
 ##### 1 [[基础语法]]
@@ -40,4 +40,3 @@
         async>
 </script>
 
-[^1]: https://docs.python.org/zh-cn/3/index.html#

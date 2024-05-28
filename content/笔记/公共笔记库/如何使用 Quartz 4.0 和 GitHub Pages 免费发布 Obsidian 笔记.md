@@ -50,12 +50,9 @@ git remote -v
 # upstream        https://github.com/jackyzha0/quartz.git (fetch)
 # upstream        https://github.com/jackyzha0/quartz.git (push)
 
-git remote set-url origin REMOTE-URL
-# 此命令删除 origin 远程仓库
+git remote set-url origin <URL>
+# 此命令删除 origin 远程仓库 并替换为自己的 URL
  
-git remote add origin <URL>
-# 添加刚复制的个人仓库URL
-
 npx quartz sync --no-pull
 # 将对本地仓库所做的更改推送到远程仓库上的
 # 末尾带有绿色 Done! 
