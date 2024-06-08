@@ -1,0 +1,24 @@
+##### JS.语句
+- 控制流
+	- return
+	- break
+	- continue
+	- if...else
+	- switch
+	- throw
+	- try...catch
+- 声明
+	- [[JS.var|var]]
+- 迭代
+	- do...while
+	- for
+	- for...in
+	- for...of
+	- for await...of
+	- while
+- 其他
+	- debugger
+	- label
+	- 空语句
+	- 块语句
+	- 表达式语句
