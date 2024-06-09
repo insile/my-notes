@@ -1,24 +1,25 @@
 ##### JS.语句
-- 控制流
-	- return
-	- break
-	- continue
-	- if...else
-	- switch
-	- throw
-	- try...catch
-- 声明
-	- [[JS.var|var]]
-- 迭代
-	- do...while
-	- for
-	- for...in
-	- for...of
-	- for await...of
-	- while
-- 其他
-	- debugger
-	- label
-	- 空语句
-	- 块语句
-	- 表达式语句
+- JS.语句
+	- 声明
+	    - [[JS.var|var]]
+	- 迭代
+	    - [[JS.do...while|do...while]]
+	    - [[JS.for|for]]
+	    - [[JS.for...in|for...in]]
+	    - [[JS.for...of|for...of]]
+	    - [[JS.for await...of|for await...of]]
+	    - [[JS.while|while]]
+	- 控制流
+	    - [[JS.return|return]]
+	    - [[JS.break|break]]
+	    - [[JS.continue|continue]]
+	    - [[JS.if...else|if...else]]
+	    - [[JS.switch|switch]]
+	    - [[JS.throw|throw]]
+	    - [[JS.try...catch|try...catch]]
+	- 其他
+	    - [[JS.debugger|debugger]]
+	    - [[JS.label|label]]
+	    - [[JS.空语句|空语句]]
+	    - [[JS.块语句|块语句]]
+	    - [[JS.表达式语句|表达式语句]]
