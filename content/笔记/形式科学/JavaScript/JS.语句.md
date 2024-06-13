@@ -1,7 +1,9 @@
 ##### JS.语句
 - JS.语句
-	- 声明
-	    - [[JS.var|var]]
+	- 结构
+		- [[JS.空语句|空语句]]
+		- [[JS.块语句|块语句]]
+		- [[JS.表达式语句|表达式语句]]
 	- 迭代
 	    - [[JS.do...while|do...while]]
 	    - [[JS.for|for]]
@@ -20,6 +22,5 @@
 	- 其他
 	    - [[JS.debugger|debugger]]
 	    - [[JS.label|label]]
-	    - [[JS.空语句|空语句]]
-	    - [[JS.块语句|块语句]]
-	    - [[JS.表达式语句|表达式语句]]
+	- 声明
+	    - [[JS.var|var]]
