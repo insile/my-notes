@@ -16,11 +16,11 @@ from 模块/包 import 对象 [as 别名]
 '''
 # 考虑以下目录结构
 # package/
-#    __init__.py
+#     __init__.py
 #     subpackage1/
 #         __init__.py
 #         moduleX.py
-#        moduleY.py
+#         moduleY.py
 #     subpackage2/
 #         __init__.py
 #         moduleZ.py
