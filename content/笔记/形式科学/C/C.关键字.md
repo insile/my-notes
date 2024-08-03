@@ -1,0 +1,13 @@
+##### 关键字
+- 关键字
+	- **关键字**是 C 语言的词汇, 它们对 C 而言比较特殊, 不能用它们作为[[C.标识符|标识符]]. 关键字用于指定不同的类型, 程序控制语句等
+- 语法
+	- auto break case char const continue
+	- default do double else enum extern
+	- float for goto if inline int long
+	- register restrict return short signed
+	- sizeof static struct switch typedef union
+	- unsigned void volatile while _Alignas
+	- _Alignof _Atomic _Bool _Complex _Generic
+	- _Imaginary _Noreturn _Static_assert
+	- _Thread_local
