@@ -4,8 +4,8 @@
 	- 在执行指令前, 会首先对代码做一些格式化, 例如把多行物理行处理为一行逻辑行, 用一个空格字符替换每一条注释等
 - 预处理器指令
 	- 预处理器指令从 `#` 开始运行, 到后面的第1个换行符为止, 指令的长度仅限于一行
-		- [[C.include|#include]]
-		- [[C.define|#define]]
+		- [[C.include|include]]
+		- [[C.define|define]]
 		- undef
 		- include
 		- include
