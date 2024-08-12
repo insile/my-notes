@@ -10,7 +10,7 @@ export default {
       note: "Note",
       abstract: "Abstract",
       info: "Info",
-      todo: "Todo",
+      todo: "To-Do",
       tip: "Tip",
       success: "Success",
       question: "Question",

@@ -5,6 +5,7 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
+  afterBody: [],
   footer: Component.Footer({
     links: {
       "自我挣扎的精神病人": "https://space.bilibili.com/1722199130"
