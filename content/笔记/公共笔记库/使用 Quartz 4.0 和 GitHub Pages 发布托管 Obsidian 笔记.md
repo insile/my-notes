@@ -1,3 +1,5 @@
+##### 使用 Quartz 4.0 和 GitHub Pages 发布托管 Obsidian 笔记
+- 内容已过期, 最新步骤参见官方文档 https://quartz.jzhao.xyz/
 ##### 步骤 0. 先决条件
 - 在继续之前，您需要安装以下软件：
 ```shell
