@@ -1,7 +1,9 @@
-##### [[Git.说明|Git 说明]]
-- [[Git.仓库 repository|仓库 repository]]
-- [[Git.分区 area|分区 area]]
-- [[Git.分支 Branch|分支 Branch]]
-- [[Git.快照 snapshot|快照 snapshot]]
-
+##### [[Git.说明]] 
+- [[Git.整体认识]] 
+- [[Git.仓库]] 
+- [[Git.分区]] 
+- [[Git.分支]] 
+- [[Git.快照]] 
+- [[Git.哈希]] 
+- [[Git.命令]] 
 
