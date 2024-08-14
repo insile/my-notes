@@ -17,6 +17,16 @@
 				- `git remote add upstream https://github.com/insile/my-notes`
 				- `git pull upstream v4`
 			- 推送分叉仓库
-				- `git commit -a -m "commit"`
+				- `git add .`
+				- `git commit -m "commit"`
 				- `git push origin v4`
 		- 发起拉取请求
+			- 在分叉仓库点击 `Contribute` 发起拉取请求
+				- ![[屏幕截图4.png|400]]
+				- ![[屏幕截图5.png|400]]
+			- 合并后保持同步
+				- `git pull upstream v4`
+
+
+
+
