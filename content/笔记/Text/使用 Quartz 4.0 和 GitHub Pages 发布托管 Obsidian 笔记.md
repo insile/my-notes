@@ -2,15 +2,14 @@
 - **步骤 0. 先决条件**
 	- 在继续之前, 您需要安装以下软件
 		- NodeJS (v20.16+) : https://nodejs.org/zh-cn 
-		- Git https://git-scm.com/
+		- [[Git]]: https://git-scm.com/
 		- Obsidian: https://obsidian.md/ 
-		- Quartz: https://quartz.jzhao.xyz/
 - **步骤 1. 下载并安装 Quartz**
 	- 打开终端并运行以下命令
 		- `git clone https://github.com/jackyzha0/quartz.git`
 			- [[git clone|克隆]] Quartz 仓库, 并将其存储在当前文件夹的 quartz 中
 		- `cd quartz`
-			- 进入 quartz
+			- 进入 quartz 目录
 		- `npm i`
 			- 安装 Quartz 依赖项
 		- `npx quartz create`

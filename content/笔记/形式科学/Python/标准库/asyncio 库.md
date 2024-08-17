@@ -1,7 +1,7 @@
 ##### asyncio 库
 - [[asyncio.认识]]
-- [[await]]
-- [[async]]
+- [[py.await|await]]
+- [[py.async|async]]
 ```python
 import asyncio
 await asyncio.sleep(1, result='hello')

@@ -43,7 +43,7 @@
 	- 分叉拉取最新更改
 		- 这首先需要与被分叉的仓库保持同步, 首先新[[git remote|添加]]被分叉仓库的上游跟踪, 然后[[git pull|拉取]]更改
 			- `git remote add upstream <forkurl>`
-			- `git pull origin upstream`
+			- `git pull upstream main`
 	- 推送更改
 		- 将本地的提交[[git push|推送]]到远程仓库 `main` 分支
 			- `git push origin HEAD:main`
