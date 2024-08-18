@@ -4,7 +4,7 @@
 		- 使用一个包含 `README.md` 的[GitHub 仓库](https://github.com/new), 这代表已经被[[Git.仓库|初始化]]可以被克隆
 			- `https://github.com/<user>/<repository>.git`
 	- 克隆仓库
-		- 首先将[[Git.仓库|远程仓库]][[git clone|克隆到本地]], 并进入目录
+		- 首先将[[Git.仓库|远程仓库]][[git clone|克隆]]到本地, 并进入目录
 			- `git clone https://github.com/<user>/<repository>.git`
 			- `cd repository`
 	- 创建新分支

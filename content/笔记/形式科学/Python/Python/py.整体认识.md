@@ -38,7 +38,7 @@ month_names = ['Januari', 'Februari', 'Maart',
 
 # 变量类型注解
 age: int = 20  # 变量 age 是整数
-name: str = 'lo'  # 变量 str 是字符串
+name: str = 'lo'  # 变量 name 是字符串
 
 # 函数类型注解
 def add(a: int, b: int) -> int:  # 参数 a,b 接受整数返回整数

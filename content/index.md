@@ -2,7 +2,6 @@
 title: Text
 ---
 ##### [[说明]] 
-- [[Python]] 
 - [[逻辑学基础]] 
 - [[语文]] 
 - [[数学]] 
@@ -10,7 +9,7 @@ title: Text
 - [[形式科学]] 
 - [[自然科学]] 
 - [[人文社科]] 
-- [[其他]]
+- [[其他]] 
 
 <script src="https://giscus.app/client.js"
         data-repo="insile/my-notes"
