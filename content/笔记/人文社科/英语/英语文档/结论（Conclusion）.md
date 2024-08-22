@@ -1,5 +1,0 @@
-- 结论（Conclusion）
-	- "In conclusion, the evidence suggests that..."
-	- "To sum up, it's clear that..."
-	- "Ultimately, it can be concluded that..."
-	- "Based on the information presented, it is reasonable to assert that..."
