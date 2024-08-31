@@ -39,7 +39,7 @@
 			- `git branch -d new-readme`
 - 分叉仓库
 	- 分叉仓库
-		- 如果远程仓库是人的项目仓库的分叉 `fork`, 则可以通过拉取请求 Pull Request (PR) 对项目做出贡献
+		- 如果远程仓库是别人项目仓库的分叉 `fork`, 则可以通过拉取请求 Pull Request (PR) 对项目做出贡献
 	- 分叉拉取最新更改
 		- 这首先需要与被分叉的仓库保持同步, 首先新[[git remote|添加]]被分叉仓库的上游跟踪, 然后[[git pull|拉取]]更改
 			- `git remote add upstream <forkurl>`
