@@ -40,7 +40,7 @@ int (*funcPtr)(int, float);
 // 优先声明指针`funcPtr`
 // `funcPtr`是一个指针, 指向接收`int`和`float`参数并返回`int`的函数
 
-int (*(*foo)(double))[3]
+int (*(*foo)(double))[3];
 // `foo`是一个指针, 指向接收`double`参数并返回一个指向包含3个`int`类型元素的数组的指针
 ```
 
