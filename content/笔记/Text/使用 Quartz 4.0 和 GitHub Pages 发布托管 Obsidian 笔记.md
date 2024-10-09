@@ -25,7 +25,7 @@
 			- `Treat links as relative paths`
 		- 设置完成
 			- `You're all set! Not sure what to try next? Try:`
-			- `Customizing Quartz a bit more by editing 'quartz.config.ts'
+			- `Customizing Quartz a bit more by editing 'quartz.config.ts'`
 			- `Running 'npx quartz build --serve' to preview your Quartz locally`
 			- `Hosting your Quartz online (see: https://quartz.jzhao.xyz/hosting)`
 - **步骤 2. 设置 GitHub 存储库** 
