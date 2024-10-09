@@ -276,8 +276,8 @@ tags:
 - [ ] stripe
 - [ ] strive
 - [ ] stroke
-- [ ] studio
-- [ ] stun
+- [x] studio
+- [x] stun
 - [ ] stunt
 - [ ] sturdy
 - [ ] stylish

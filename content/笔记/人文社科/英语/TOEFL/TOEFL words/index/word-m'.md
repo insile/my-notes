@@ -1,7 +1,7 @@
 ---
 tags:
   - English
-finished:
+finished: true
 ---
 - [ ] machinery
 - [ ] maglev
@@ -140,4 +140,34 @@ finished:
 - [ ] monopolize
 - [ ] monotonous
 - [x] monster
-- [ ] 
+- [ ] monumental
+- [x] moral
+- [ ] morale
+- [ ] mosaic
+- [ ] mosquito
+- [ ] most of all
+- [ ] moth
+- [ ] motif
+- [x] motion
+- [ ] motivate
+- [x] motive
+- [x] motor
+- [ ] mottled
+- [ ] mount
+- [ ] mountainous
+- [x] multiple
+- [x] multiply
+- [x] multitude
+- [ ] mundane
+- [ ] municipal
+- [ ] mural
+- [x] muscle
+- [x] mushroom
+- [x] musical
+- [x] musician
+- [x] musicologist
+- [ ] mutual
+- [ ] myriad
+- [x] myth
+- [x] mythical
+- [x] mythology
