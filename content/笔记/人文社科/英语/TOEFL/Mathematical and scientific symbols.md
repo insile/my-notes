@@ -1,9 +1,3 @@
----
-tags:
-  - 数学
-  - English
-dlink:
----
 Common pronunciations (in British English - Gimson,1981) of mathematical and scientific symbols are given in the list below.
 
 (all the pages in this section need a unicode font installed - e.g. Arial Unicode MS, Doulos SIL Unicode, Lucida Sans Unicode - see: [The International Phonetic Alphabet in Unicode](http://www.phon.ucl.ac.uk/home/wells/ipa-unicode.htm)).

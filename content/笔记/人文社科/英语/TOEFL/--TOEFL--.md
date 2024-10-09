@@ -1,7 +1,3 @@
----
-tags: 
-  - English
----
 ![[TOEFL REFORM]]
 # Words
  - [[--TOEFL words ASC--]]

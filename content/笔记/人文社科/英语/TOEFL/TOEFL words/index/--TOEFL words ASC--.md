@@ -1,7 +1,3 @@
----
-tags: 
-  - English
----
 - [[word-a']]
 - [[word-b']]
 - [[word-c']]

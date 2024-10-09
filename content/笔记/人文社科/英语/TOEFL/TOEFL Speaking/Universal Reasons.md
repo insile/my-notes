@@ -1,8 +1,3 @@
----
-tags:
-  - English
-  - TOEFL
----
 # cheap
 It's cheap and economical. It can help me save a lot of money to buy books or to reveal with my friend Marco. Specifically, it only costs  ...  Yuan to  ...  . However, if I want to  ...  , it will cost me at least  ...  Yuan. I hate squandering, so I think it is awesome. 
 

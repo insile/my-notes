@@ -1,8 +1,3 @@
----
-tags:
-  - English
-  - TOEFL
----
 ## Common Topics for Independent Speaking Tasks
   
 **• [[Education and School Life]]**: Opinions about school policies, classroom experiences, or learning methods.  

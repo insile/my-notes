@@ -1,9 +1,3 @@
----
-tags:
-  - TOEFL
-  - English
-datetime: 2024-02-16 23:07:08
----
 # Topic1
 Some people prefer listening to slow and calm music. While others enjoy listening to music that has a fast tempo, Which do you prefer and why?
 ## Viewpoint
